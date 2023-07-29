@@ -10,7 +10,7 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: rgb(133, 104, 37);
+  background-color: rgb(197, 182, 144);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -23,7 +23,6 @@ body {
   min-height: 20rem;
   padding: 1.5rem;
   border-radius: 12px;
-
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -37,10 +36,14 @@ body {
   padding: 1rem;
 }
 
+.fa-solid {
+  color: rgb(12, 19, 81);
+}
+
 .head {
   font-size: 1.5rem;
   font-weight: 900;
-  color: rgb(255, 170, 0);
+  color: rgb(6, 5, 52);
   text-transform: uppercase;
 }
 
@@ -64,7 +67,8 @@ body {
   padding: 1rem;
   border-radius: 50%;
   font-size: 3rem;
-  background-color: rgb(238, 234, 8);
+  background-color: rgb(19, 150, 194);
+  border: none;
 }
 
 .result {
@@ -74,7 +78,7 @@ body {
   gap: 1rem;
 }
 
-.res{
+.res {
   font-weight: 900;
 }
 
